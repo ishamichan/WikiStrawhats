@@ -1,0 +1,74 @@
+        body {
+          font-family: 'Poppins', sans-serif;
+          margin: 0;
+          background-color: #FFFFFF;
+        }
+        
+        .header {
+          background-color: #c40000;
+          padding: 35px 0 15px 0;
+          color: white;
+          text-align: center;
+        }
+        
+        .header h1 {
+          font-size: 48px;
+          margin: 0;
+          font-weight: 900;
+          letter-spacing: 4px;
+        }
+        
+        .nav {
+          display: flex;
+          justify-content: center;
+          gap: 70px;
+          background-color: #c40000;
+          padding-bottom: 20px;
+        }
+        
+        .nav a {
+          color: white;
+          text-decoration: none;
+          font-weight: 700;
+          font-size: 18px;
+        }
+        
+        .crew-section {
+          width: 80%;
+          height: 50%;
+          margin: 40px;
+        }
+        
+        .crew-card {
+          display: flex;
+          align-items: flex-start;
+          background-color: #ffd966;
+          border-radius: 15px 50px;
+          padding: 20px;
+          margin-bottom: 35px;
+        }
+        
+        .crew-card img {
+          width: 210px;
+          height: 180px;
+          border-radius: 0px;
+          margin-right: 5px;
+          padding: 10px;
+          object-fit: cover;
+        }
+        
+        .text-box h2 {
+          font-family: 'Anton', sans-serif;
+          margin: 0;
+          font-size: 32px;
+        }
+        
+        .text-box h3 {
+          margin: 5px 0 15px 0;
+          font-weight: 600;
+        }
+        
+        .text-box p {
+          font-size: 15px;
+          line-height: 1.5;
+        }
